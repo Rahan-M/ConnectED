@@ -1,0 +1,54 @@
+*{
+    padding:0px;
+    margin:0px;
+    border:border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar{
+    height:60px;
+    display: flex;
+    justify-content: center;align-items: center;
+    background-color: #1D2D44;
+    font-size: larger;
+    color:white;
+    font-weight:800;
+}
+main{
+    height: 650px;
+    background-color: #F0EBD8;
+    display: flex;
+    justify-content: center;align-items: center;
+}
+.loginbox{
+    background-color: white;
+    height:500px;
+    width:400px;
+    border:1px outset;
+    display: flex;flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.loginmsg{
+    display: flex;justify-content: center;align-items: center;
+    width:100%;
+    height:70px;
+    background-color: #1D2D44;
+    color:white;
+}
+input{
+    height:20px;
+    width:300px;
+    border: 0.01rem solid;
+}
+.username{
+    position: relative;
+    top:20px;
+}
+.password{
+    position: relative;
+    bottom:80px;
+}
+.fgpass{
+    position: relative;
+    bottom:100px;
+}
