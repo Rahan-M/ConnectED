@@ -23,6 +23,7 @@ input{
     height:25px;
     width:300px;
     border: 2px groove;
+    border-radius: 5px;
 }
 a{
     text-decoration: none;
