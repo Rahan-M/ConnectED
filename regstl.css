@@ -19,15 +19,7 @@ main{
     display: flex;
     justify-content: center;align-items: center;
 }
-input{
-    height:25px;
-    width:300px;
-    border: 2px groove;
-}
-a{
-    text-decoration: none;
-}
-.loginbox{
+.regbox{
     background-color: white;
     height:500px;
     width:400px;
@@ -36,43 +28,22 @@ a{
     justify-content: space-between;
     align-items: center;
 }
-.loginmsg{
+.regmsg{
     display: flex;justify-content: center;align-items: center;
     width:100%;
     height:70px;
     background-color: #1D2D44;
     color:white;
 }
-.username{
+.log{
     position: relative;
-    top:30px;
+    bottom:50px;
 }
-.password{
-    position: relative;
-    bottom:15px;
+input{
+    height:25px;
+    width:300px;
+    border: 2px groove;
 }
-.reg{
-    position: relative;
-    bottom:60px;
-}
-.fgpass{
-    position: relative;
-    bottom:60px;
-    right:91px;
-}
-.logbutton{
-    display: flex;
-    justify-content: center;align-items: center;
-}
-.logbutton button{
-    position: relative;
-    bottom:20px;
-    width: 100px;
-    height:30px;
-    background-color: #1D2D44;
-    font-size: 1.2rem;
-    color:white;
-    font-weight:700;
-    border:none;
-    border-radius:5px ;
+a{
+    text-decoration: none;
 }
