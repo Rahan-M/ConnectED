@@ -46,11 +46,32 @@ input{
 }
 .password{
     position: relative;
-    bottom:25px;
+    bottom:15px;
 }
 .reg{
     position: relative;
-    bottom:50px;
+    bottom:60px;
+}
+.fgpass{
+    position: relative;
+    bottom:60px;
+    right:91px;
+}
+.logbutton{
+    display: flex;
+    justify-content: center;align-items: center;
+}
+.logbutton button{
+    position: relative;
+    bottom:20px;
+    width: 100px;
+    height:30px;
+    background-color: #1D2D44;
+    font-size: 1.2rem;
+    color:white;
+    font-weight:700;
+    border:none;
+    border-radius:5px ;
 }
 
 a{
