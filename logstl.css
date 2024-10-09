@@ -36,19 +36,23 @@ main{
     color:white;
 }
 input{
-    height:20px;
+    height:25px;
     width:300px;
-    border: 0.01rem solid;
+    border: 2px groove;
 }
 .username{
     position: relative;
-    top:20px;
+    top:30px;
 }
 .password{
     position: relative;
-    bottom:80px;
+    bottom:25px;
 }
-.fgpass{
+.reg{
     position: relative;
-    bottom:100px;
+    bottom:50px;
+}
+
+a{
+    text-decoration: none;
 }
